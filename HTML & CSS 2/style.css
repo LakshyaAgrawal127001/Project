@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Brygada 1918', serif;
+}
+
+body {
+  background-image: url('html.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+
+}
+
+.head {
+  background-color: rgba(7, 7, 7, 0.568);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 2px;
+  margin-top: 9px;
+}
+
+.logo img {
+  width: 60px;
+  height: 93%;
+}
+
+.navbar {
+  margin: 2px;
+  margin-top: 1rem;
+
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.navbar ul li {
+  list-style-type: none;
+
+}
+
+.navbar ul li a {
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 18px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar ul li a:hover {
+  color: rgb(20, 205, 230);
+  text-decoration: underline;
+}
+i{
+  font-size: 1.5rem;
+}
+.btn {
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+
+.btn button {
+  background: #000000b0;
+  border-radius: 1rem;
+  border-color: #0000;
+
+}
+
+.btn button a {
+  font-size: 0.9rem;
+  color: rgb(182, 167, 167);
+  text-decoration: none;
+}
+
+.btn button a:hover {
+  color: rgb(223, 9, 9);
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+/* Form section */
+
+
+form {
+
+  display: grid;
+  grid: 2px;
+  grid-gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+  display: inline-block;
+  margin: 2rem;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+input {
+  color: white;
+  background-color: #0f0f0ff2;
+  margin-left: 9rem;
+  text-align: center;
+  border-radius: 2rem;
+  width: 25em;
+  padding: 1rem;
+
+}
+
+::placeholder {
+  color: rgb(179, 164, 164);
+}
+
+.btn1 button {
+  color: white
+}
+
+.btn1 button:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.btn1 button {
+  width: 5.1rem;
+  background-color: rgba(206, 190, 190, 0.479);
+  border-radius: 1rem;
+  position: absolute;
+  right: 13rem;
+}
+
+.btn1 .sub {
+  width: 5.1rem;
+  background-color: rgba(206, 190, 190, 0.479);
+  border-radius: 1rem;
+  position: absolute;
+  right: 20rem;
+}
