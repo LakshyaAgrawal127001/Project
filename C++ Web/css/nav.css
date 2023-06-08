@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.lgo{    
+    margin-left: 3rem;
+    color: green;
+    margin: 1rem;
+    text-decoration: underline;
+    text-align: center;
+}
+nav ul{
+    display: flex;    
+    justify-content: space-evenly;
+}
+nav ul li{
+    margin: 1.5rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color:aqua;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}

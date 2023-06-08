@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.foot{
+    margin-top: 2rem;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.foot h3{
+    margin: 1rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: grey;
+}
+.foot input{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+    height: 2rem;
+    margin: 10px;
+    margin-left: 1rem;
+    border-radius: 7px;
+    text-align: center;
+}
+.foot textarea{
+    margin: 5px;
+    margin-left: 1rem;
+    margin-top: -2rem;
+    border-radius: 1rem;
+    width: 17rem;
+}
+.foot button{
+  margin-left: 19rem;  
+  margin-top: 7px;
+  text-align: center;
+  border-radius: 4px;
+  width: 5rem;
+  padding: 2px;
+}
+.ad {
+    display: flex;
+    margin: 1rem;
+}
+
+.ad li {
+    display: inline;
+    margin-top: 8rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.ad li a {
+    font-size: 3rem;
+    text-decoration: none;
+}
+.foot p{
+    color: white;
+    position: absolute;
+    top: 82rem;
+    right: 2rem;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.intro{
+    display: flex;
+}
+.intro h2{
+    display: inline-block;
+    margin: 2rem;    
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.intro p{  
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.intro mark{
+    background-color: lightblue;
+}
+
+.intro figure img{
+    border: 2px solid black;
+    margin: 2rem;
+    margin-right: 3rem;
+    height: 13rem;
+    width: auto;    
+}
+.intro figcaption{
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: -1rem;
+}
+.feat{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.feat h3{
+    text-decoration: underline;
+    margin: 1rem;
+}
+.feat p{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.feat ul li{
+    list-style-type:decimal;
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+.more{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.more h3{
+    text-decoration: underline;
+    margin: 1rem
+}
+.more p{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.more ul li{
+    list-style-type:decimal;
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
